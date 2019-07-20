@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='manip',  
-    version='0.1',
+    version='0.2',
     author="Felipe Amaral",
     author_email="costinha.fca@gmail.com",
     description="A manipulation package to change whole folders.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/javatechy/dokr",
+    url="https://github.com/Flipecs/file_manip",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

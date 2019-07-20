@@ -67,6 +67,10 @@ def join_props(text, prop1='key', prop2='value', new_prop='new'):
     return json.dumps(obj)
 ~~~
 
+### More info:
+
+[GitHub](https://github.com/Flipecs/file_manip)
+
 <style>
 p {
     font-size: 19px;
