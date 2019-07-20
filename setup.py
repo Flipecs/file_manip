@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='manip',  
-    version='0.1',
+    version='0.2',
     author="Felipe Amaral",
     author_email="costinha.fca@gmail.com",
     description="A manipulation package to change whole folders.",

@@ -67,9 +67,9 @@ def join_props(text, prop1='key', prop2='value', new_prop='new'):
     return json.dumps(obj)
 ~~~
 
-<h3>More info:</h3>
+### More info:
 
-[GitHub](https://github.com/Flipecs/file_manip.git)
+[GitHub](https://github.com/Flipecs/file_manip)
 
 <style>
 p {
