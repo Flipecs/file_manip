@@ -14,7 +14,7 @@ def manipulate(func, *args, at='', path='.', recursive=False, ignore=True, test=
     \tprefix/posfix - strings added before and after test files
     \tlog - shows on console steps
     
-    simple usage:
+    simple usage:'
         @manipulate()
         def function(text):
             return text + ' changed'
@@ -51,7 +51,7 @@ def manipulate(func, *args, at='', path='.', recursive=False, ignore=True, test=
                 f.write(new_text)
 
         elif recursive and os.path.isdir(new_path):
-            manipulate(func, *args, at=at, path=path, recursive=recursive, ignore=ignore, test=test, prefix=prefix, posfix=posfix, log=log, **kwargs)
+            manipulate(func, *args, at=at, path=new_path, recursive=recursive, ignore=ignore, test=test, prefix=prefix, posfix=posfix, log=log, **kwargs)
 
 
 def manip( at='', path='.', recursive=False, ignore=True, test=True, prefix='new_', posfix='', log=True ):
