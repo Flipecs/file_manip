@@ -9,13 +9,13 @@
 <p>Decorator that transforms an <b>[str] = function( [str]:text, *args, **kwargs )</b> into an function that apllies itself into a folder.</p>
 <p>The default values for the new function can be set at the decorator.</p>
 <div class='params'>
-<p><label><b>at</b> - regex to search target files</label></p>
-<p><label><b>path</b> - folder with files to change (start folder on recursive mode)</label></p>
-<p><label><b>recursive</b> - makes the function call itself on all folders inside the start folder</label></p>
-<p><label><b>ignore</b> - ignore changes on file if function returns any error and continues to the next file</label></p>
-<p><label><b>test</b> - creates a new file with the changes for test (NOT recommended with: recursive = True)</label></p>
-<p><label><b>prefix/posfix</b> - strings added before and after test files</label></p>
-<p><label><b>log</b> - shows on console steps</label></p>
+<p><label> - <b>at</b> - regex to search target files</label></p>
+<p><label> - <b>path</b> - folder with files to change (start folder on recursive mode)</label></p>
+<p><label> - <b>recursive</b> - makes the function call itself on all folders inside the start folder</label></p>
+<p><label> - <b>ignore</b> - ignore changes on file if function returns any error and continues to the next file</label></p>
+<p><label> - <b>test</b> - creates a new file with the changes for test (NOT recommended with: recursive = True)</label></p>
+<p><label> - <b>prefix/posfix</b> - strings added before and after test files</label></p>
+<p><label> - <b>log</b> - shows on console steps</label></p>
 </div>
 
 <p>Default values on decorator are set to avoid writting over important files with broken functions.</p>
